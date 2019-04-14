@@ -1,5 +1,6 @@
-
+phrase = "Its-a me, Mario!"
 def catch_phrase(phrase)
-  phrase = "Its-a me, Mario!"
+  if phrase == "It's-a me, Mario!"
   return phrase
+end
 end
