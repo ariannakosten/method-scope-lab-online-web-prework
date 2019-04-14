@@ -1,6 +1,6 @@
-def rescue_princess_peach
-  status = "rescued"
-  puts "Hooray! Mario has rescued Princess Peach."
+status = "rescued"
+def rescue_princess_peach(staus)
+  puts "Hooray! Mario has #{status} Princess Peach."
 end
 
 
